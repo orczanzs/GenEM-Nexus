@@ -19,3 +19,9 @@ Ez a README egy **iránytű**, amely meghatározza a projekt fő céljait és mo
 
 ## 📁 Projektstruktúra (pre‑alpha)
 
+GenEM-Nexus/
+│
+├── README.md
+│
+└── src/
+    └── genem_nexus.py
