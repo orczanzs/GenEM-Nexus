@@ -1,57 +1,48 @@
-# GenEM-Nexus — Pre-Alpha
+# GenEM‑Nexus — Pre‑Alpha
+🇭🇺 Magyar verzió | 🇬🇧 English version
 
-A GenEM‑Nexus egy egyszerű, személyes DNS‑elemző projekt,
-amelyet a bátyám emlékére indítok.
+---
 
-A cél nem tudományos kutatás, hanem az, hogy
-RAW DNA fájlokból és családfakutató oldalak (MyHeritage, Ancestry.....)
-által javasolt rokonlistákból meg lehessen állapítani:
+## 🇭🇺 Magyar verzió
 
-👉 egy rokon anyai vagy apai ágon kapcsolódik-e hozzánk.
+A GenEM‑Nexus a korábbi GenEM projekt folytatása, egy személyes, hobbiból induló DNS‑elemző eszköz, amelyet a bátyám emlékére készítek.
+
+A cél nem tudományos kutatás, hanem egy gyakorlati segédeszköz létrehozása a családfakutatáshoz. A program segítségével szeretném meghatározni, hogy a családfakutató oldalak (MyHeritage, Ancestry) által javasolt rokonok anyai vagy apai ágon kapcsolódnak-e hozzánk.
 
 Ez segít abban, hogy:
-- könnyebben megtaláljuk a rokoni szálakat,
-- be tudjuk azonosítani, melyik családi vonalon érdemes tovább keresni,
-- átláthatóbb legyen a családfakutatás.
+- könnyebben megtalálhatók legyenek a rokoni szálak,
+- gyorsabban beazonosítható legyen, melyik családi vonalon érdemes tovább kutatni,
+- átláthatóbbá váljon a családfakutatás folyamata.
 
-Ez egy nagyon korai, pre‑alpha állapot.
-Lassan, kis lépésekben haladok.
+### 🛠 Hogyan készül?
 
-## Projektstruktúra (GitHub-kompatibilis ASCII)
+A GenEM‑Nexus egy Pythonban írt eszköz, amely:
+- beolvassa a RAW DNA fájlokat,
+- összeveti a MyHeritage / Ancestry által javasolt rokonlistákkal,
+- kiszámítja a genetikai közelséget,
+- és logikai szabályok alapján meghatározza az anyai / apai ágat.
 
-GenEM-Nexus/
-|
-+-- README.md
-|
-+-- src/
-    |
-    +-- genem_nexus.py
+Ez egy lassan épülő, hobbiprojekt, amely a GenEM eredeti célját viszi tovább.
 
-# GenEM-Nexus — Pre-Alpha
+---
 
-GenEM‑Nexus is a simple, personal DNA analysis project,
-created in memory of my brother.
+## 🇬🇧 English version
 
-The goal is not scientific research, but to determine
-from RAW DNA files and suggested relatives from genealogy sites
-(MyHeritage, Ancestry) whether a match is connected through the:
+GenEM‑Nexus is the continuation of the earlier GenEM project, created as a personal hobby tool in memory of my brother.
 
-👉 maternal or paternal family line.
+The goal is not scientific research, but to build a practical helper tool for genealogy. The program aims to determine whether suggested relatives from genealogy sites (MyHeritage, Ancestry) are connected through the maternal or paternal family line.
 
 This helps:
-- find family connections more easily,
+- identify family connections more easily,
 - understand which branch to investigate,
-- make genealogy research clearer.
+- make genealogy research clearer and more structured.
 
-This is a very early pre‑alpha stage.
-I move slowly, step by step.
+### 🛠 How it is built
 
-## Project structure (GitHub-compatible ASCII)
+GenEM‑Nexus is a Python‑based tool that will:
+- load RAW DNA files,
+- compare them with suggested relatives,
+- calculate genetic closeness,
+- and apply logical rules to determine maternal / paternal origin.
 
-GenEM-Nexus/
-|
-+-- README.md
-|
-+-- src/
-    |
-    +-- genem_nexus.py
+This is a slowly evolving hobby project, continuing the original purpose of GenEM.
