@@ -4,7 +4,7 @@ A GenEM‑Nexus egy egyszerű, személyes DNS‑elemző projekt,
 amelyet a bátyám emlékére indítok.
 
 A cél nem tudományos kutatás, hanem az, hogy
-RAW DNA fájlokból és családfakutató oldalak (MyHeritage, Ancestry)
+RAW DNA fájlokból és családfakutató oldalak (MyHeritage, Ancestry.....)
 által javasolt rokonlistákból meg lehessen állapítani:
 
 👉 egy rokon anyai vagy apai ágon kapcsolódik-e hozzánk.
@@ -17,14 +17,16 @@ Ez segít abban, hogy:
 Ez egy nagyon korai, pre‑alpha állapot.
 Lassan, kis lépésekben haladok.
 
-## Projektstruktúra (minimális)
+## Projektstruktúra (GitHub-kompatibilis ASCII)
 
 GenEM-Nexus/
-│
-├── README.md
-│
-└── src/
-    └── genem_nexus.py
+|
++-- README.md
+|
++-- src/
+    |
+    +-- genem_nexus.py
+
 # GenEM-Nexus — Pre-Alpha
 
 GenEM‑Nexus is a simple, personal DNA analysis project,
@@ -44,11 +46,12 @@ This helps:
 This is a very early pre‑alpha stage.
 I move slowly, step by step.
 
-## Project structure (minimal)
+## Project structure (GitHub-compatible ASCII)
 
 GenEM-Nexus/
-│
-├── README.md
-│
-└── src/
-    └── genem_nexus.py
+|
++-- README.md
+|
++-- src/
+    |
+    +-- genem_nexus.py
