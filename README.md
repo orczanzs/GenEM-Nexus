@@ -1,23 +1,50 @@
-# GenEM-Nexus
-Family-based DNA analysis engine: triangulation, ancestor estimation, Lazarus-style reconstruction, RAW DNA processing.  Magyarul: Családi DNS‑elemző motor: trianguláció, ősbecslés, Lazarus‑szerű rekonstrukció, RAW DNA feldolgozás.
-# GenEM-Nexus — Pre‑Alpha README
+# GenEM-Nexus — Pre-Alpha
 
-[🇭🇺 Magyar](#magyar-verzió) | [🇬🇧 English](#english-version)
+A GenEM‑Nexus egy egyszerű, személyes DNS‑elemző projekt,
+amelyet a bátyám emlékére indítok.
 
----
+A cél nem tudományos kutatás, hanem az, hogy
+RAW DNA fájlokból és családfakutató oldalak (MyHeritage, Ancestry)
+által javasolt rokonlistákból meg lehessen állapítani:
 
-# 🇭🇺 Magyar verzió
+👉 egy rokon anyai vagy apai ágon kapcsolódik-e hozzánk.
 
-## **GenEM-Nexus – projektirányvázlat (pre‑alpha)**
+Ez segít abban, hogy:
+- könnyebben megtaláljuk a rokoni szálakat,
+- be tudjuk azonosítani, melyik családi vonalon érdemes tovább keresni,
+- átláthatóbb legyen a családfakutatás.
 
-A **GenEM-Nexus** a GenEM továbbfejlesztett, családi‑alapú DNS‑elemző rendszere.  
-Célja, hogy RAW DNA fájlokból **családi DNS‑hálót** építsen, triangulációt végezzen, ősöket becsüljön, és offline módon képes legyen **Lazarus‑szerű szülői rekonstrukcióra**.
+Ez egy nagyon korai, pre‑alpha állapot.
+Lassan, kis lépésekben haladok.
 
-Ez a README egy **iránytű**, amely meghatározza a projekt fő céljait és moduljait.
+## Projektstruktúra (minimális)
 
----
+GenEM-Nexus/
+│
+├── README.md
+│
+└── src/
+    └── genem_nexus.py
+# GenEM-Nexus — Pre-Alpha
 
-## 📁 Projektstruktúra (pre‑alpha)
+GenEM‑Nexus is a simple, personal DNA analysis project,
+created in memory of my brother.
+
+The goal is not scientific research, but to determine
+from RAW DNA files and suggested relatives from genealogy sites
+(MyHeritage, Ancestry) whether a match is connected through the:
+
+👉 maternal or paternal family line.
+
+This helps:
+- find family connections more easily,
+- understand which branch to investigate,
+- make genealogy research clearer.
+
+This is a very early pre‑alpha stage.
+I move slowly, step by step.
+
+## Project structure (minimal)
 
 GenEM-Nexus/
 │
