@@ -36,6 +36,36 @@ Ez a projekt a **MyHeritage** által exportált DNS-szegmens adatok feldolgozás
 
 #### 1. Előfeltételek
 Győződj meg róla, hogy a Python 3 és a `pandas` csomag telepítve van:
+. CSV fájlok egyesítése
 
+    Töltsd le a MyHeritage-ről a közös DNS-szegmenseket tartalmazó CSV fájlokat.
+
+    Másold az összes letöltött .csv fájlt a projekt mappájába.
+
+    Futtasd az egyesítő szkriptet:
 ```bash
 pip install pandas
+python3 egyesito.py
+Bash
+
+python3 dna_ag_elemzo.py
+
+    Fájl megadása: Nyomj Enter-t az alapértelmezett Shared_DNA.csv használatához.
+
+    Ismert rokonok megadása:
+
+        Írd be egy ismert rokon nevét (pl. Gyurátz).
+
+        Add meg a hozzá tartozó ágat (pl. apai-nagyanyai).
+
+        Ismételd meg a többi horgony-rokonnal, majd nyomj Enter-t a befejezéshez.
+
+    Célszemély elemzése:
+
+        Írd be az elemzendő ismeretlen rokon nevét (pl. Ira Saarinen).
+
+        A program kilistázza a kromoszómánkénti átfedéseket és kiírja a legvalószínűbb ágat.
+
+A Python-based utility suite designed to consolidate and analyze MyHeritage shared DNA segment data. Using the genetic principle of chromosome triangulation, this tool helps determine whether an unknown DNA match belongs to your paternal-paternal, paternal-maternal, or other specific ancestral branches.
+
+    🤖 Note: This project’s codebase and documentation were developed with the assistance and collaboration of Artificial Intelligence (AI).
